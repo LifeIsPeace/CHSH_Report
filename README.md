@@ -12,7 +12,7 @@ In classical mechanics, any system governed by local hidden variables must satis
 
 ## Experiment
 
-In Qiskit's demonstration of the experiment, their results show that the ideal simulator reaches a near perfect violation of the CHSH violation of 2.828 at certain angles. However, when processed on one of IBMs Quantum Machines (ibm_quito), it hardly passes the CHSH expectation value of 2. Even though it passes the violation expectation of being greater than 2, it nearly fails the experiment.<br>
+In the Qiskit Textbook demos for the CHSH inequality (https://github.com/Qiskit/textbook/blob/main/notebooks/ch-demos/chsh.ipynb), their results show that the ideal simulator's bound for the expectation value is 2.8, violating the bell inequality. However, when processed on one of IBMs Quantum Machines (ibm_quito), it hardly passes the CHSH expectation value of 2. We aim to find why this is.
 
 
 ![Qiskit Experiment Results](./images/QiskitOutput.png)<br>
